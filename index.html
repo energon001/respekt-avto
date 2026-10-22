@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>document.documentElement.classList.add('js');</script>
+<title>Респект Авто: автосервис в Челябинске — ремонт двигателей, АКПП, электрики</title>
+<meta name="description" content="Автосервис «Респект Авто» в Челябинске: ТО, ремонт двигателей и ГБЦ, АКПП, ходовой, тормозов, автоэлектрика, диагностика, шиномонтаж. Цены от 200 ₽. Ежедневно 9:00–21:00. СНТ Колющенец, 6-я улица, 274.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Респект Авто: автосервис в Челябинске">
+<meta property="og:description" content="Ремонт двигателей, АКПП, электрики и шиномонтаж. Цены озвучиваем до начала работ. Ежедневно 9:00–21:00.">
+<meta property="og:image" content="img/p11-900.jpg">
+<meta name="theme-color" content="#0d0c0a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230d0c0a'/%3E%3Ctext x='16' y='22' font-family='system-ui' font-size='15' font-weight='700' fill='%23F97316' text-anchor='middle'%3E%D0%A0%3C/text%3E%3C/svg%3E">
+<link rel="preload" href="fonts/unbounded-2.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/manrope-2.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "Респект Авто",
+  "telephone": "+7 912 314-39-94",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "6-я улица, 274, СНТ Колющенец",
+    "addressLocality": "Челябинск",
+    "addressCountry": "RU"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 55.093721, "longitude": 61.400905 },
+  "openingHours": "Mo-Su 09:00-21:00",
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.4", "reviewCount": "74" }
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Перейти к содержанию</a>
+
+<header class="top" id="top">
+  <div class="wrap top__row">
+    <a class="logo" href="#top" aria-label="Респект Авто, на главную">
+      <span class="logo__mark" aria-hidden="true">Р</span>
+      <span class="logo__text">Респект&nbsp;<i>Авто</i></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Разделы сайта">
+      <a href="#services">Услуги</a>
+      <a href="#prices">Цены</a>
+      <a href="#steps">Как работаем</a>
+      <a href="#shop">Цех</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="btn btn--accent top__cta" href="#booking">Записаться</a>
+    <a class="top__phone" href="tel:+79123143994">+7 912 314-39-94</a>
+    <button class="burger" type="button" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- 1. ПЕРВЫЙ ЭКРАН -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap hero__grid">
+      <div class="hero__body">
+        <p class="hero__status" id="status" data-open="unknown">
+          <span class="hero__dot" aria-hidden="true"></span>
+          <span id="status-text">Ежедневно 9:00–21:00</span>
+        </p>
+        <h1 id="hero-title">Автосервис, где <em>не&nbsp;навязывают</em></h1>
+        <p class="hero__lead">Ремонт двигателей и ГБЦ, АКПП, ходовой, электрики и&nbsp;шиномонтаж в Челябинске. Стоимость называем до начала работ и&nbsp;её держим.</p>
+        <div class="hero__actions">
+          <a class="btn btn--accent" href="#booking">Записаться на ремонт</a>
+          <a class="btn btn--ghost" href="tel:+79123143994">Позвонить</a>
+        </div>
+        <div class="hero__meta">
+          <p class="hero__rating"><strong>4,4</strong> <span>рейтинг на Яндекс&nbsp;Картах · 74 оценки · 32 отзыва</span></p>
+          <p class="hero__addr">Челябинск, СНТ Колющенец, 6-я улица, 274</p>
+        </div>
+      </div>
+      <figure class="hero__shot">
+        <picture>
+          <source type="image/webp" srcset="img/p11-480.webp 480w, img/p11-900.webp 900w, img/p11-1600.webp 1600w" sizes="(max-width: 900px) 92vw, 46vw">
+          <img src="img/p11-900.jpg" alt="Машина на подъёмнике в цеху Респект Авто" width="4032" height="2268" fetchpriority="high" decoding="async">
+        </picture>
+        <figcaption class="hero__pic-note">Цех с двухстоечными подъёмниками</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 2. ПРЕИМУЩЕСТВА -->
+  <section class="adv" id="advantages" aria-labelledby="adv-title">
+    <div class="wrap">
+      <h2 class="sec-title" id="adv-title">Почему едут к нам</h2>
+      <div class="adv__grid">
+        <div class="adv__card">
+          <h3>Не навязываем</h3>
+          <p>Делаем то, что нужно машине. Лишних работ не будет: об этом пишут в отзывах клиенты.</p>
+        </div>
+        <div class="adv__card">
+          <h3>Цена до начала работ</h3>
+          <p>После осмотра называем стоимость и держим её. Изменения только после согласования с вами.</p>
+        </div>
+        <div class="adv__card">
+          <h3>Запчасти берём на себя</h3>
+          <p>Сами подберём и закажем детали, вам не нужно ездить по магазинам.</p>
+        </div>
+        <div class="adv__card">
+          <h3>Держим в курсе</h3>
+          <p>Звоним по всем нюансам и согласовываем каждое решение по ремонту.</p>
+        </div>
+        <div class="adv__card">
+          <h3>Без выходных</h3>
+          <p>Работаем ежедневно с 9:00 до 21:00. Удобный заезд с автодороги, есть парковка.</p>
+        </div>
+        <div class="adv__card">
+          <h3>Оплата как удобно</h3>
+          <p>Наличными или банковской картой. Оплата после принятия работы.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. УСЛУГИ -->
+  <section class="services" id="services" aria-labelledby="services-title">
+    <div class="wrap">
+      <h2 class="sec-title" id="services-title">Услуги</h2>
+      <p class="sec-note">Ремонтируем иномарки и&nbsp;отечественные автомобили: от седанов до микроавтобусов. Точную стоимость называем после осмотра.</p>
+      <div class="services__grid">
+        <article class="card">
+          <h3>Двигатель</h3>
+          <p>Ремонт ДВС и ГБЦ, замена прокладок, масложор, стук, цепь и ремень ГРМ.</p>
+        </article>
+        <article class="card">
+          <h3>Трансмиссия</h3>
+          <p>АКПП и МКПП, сцепление, карданный вал, редуктор и мост в сборе.</p>
+        </article>
+        <article class="card">
+          <h3>Ходовая</h3>
+          <p>Диагностика и ремонт подвески, ШРУСы, рулевое, пневмоподвеска.</p>
+        </article>
+        <article class="card">
+          <h3>Тормоза</h3>
+          <p>Колодки, диски, суппорты, шланги. Проточка тормозных дисков.</p>
+        </article>
+        <article class="card">
+          <h3>Электрика</h3>
+          <p>Диагностика, генераторы, стартеры, блоки управления, поиск обрывов.</p>
+        </article>
+        <article class="card">
+          <h3>Топливная система</h3>
+          <p>Инжекторные системы, бензонасосы, форсунки, обслуживание катализаторов.</p>
+        </article>
+        <article class="card">
+          <h3>Выхлопная система</h3>
+          <p>Замена глушителей, стрингеров, даунпайпов, гофр. Сварочные работы.</p>
+        </article>
+        <article class="card">
+          <h3>Шиномонтаж</h3>
+          <p>Легковых, грузовых и мототехники. Балансировка, ремонт бескамерных и камерных шин.</p>
+        </article>
+        <article class="card">
+          <h3>Кузов</h3>
+          <p>Предпродажная подготовка, полировка, нанесение антикоррозийных покрытий.</p>
+        </article>
+        <article class="card">
+          <h3>Сервис</h3>
+          <p>ТО, замена масел и технических жидкостей, автозапчасти, сигнализации, отопители.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. ПРАЙС-ЛИСТ -->
+  <section class="prices" id="prices" aria-labelledby="prices-title">
+    <div class="wrap">
+      <h2 class="sec-title" id="prices-title">Прайс-лист</h2>
+      <p class="sec-note">Цены на популярные работы. Итоговую стоимость называем после осмотра, с учётом модели авто и объёма работ.</p>
+      <div class="prices__grid">
+        <div class="price-group">
+          <h3>ТО и фильтры</h3>
+          <ul>
+            <li><span>Замена масла ДВС</span><b>от 955&nbsp;₽</b></li>
+            <li><span>Замена салонного фильтра</span><b>от 420&nbsp;₽</b></li>
+            <li><span>Замена воздушного фильтра</span><b>от 200&nbsp;₽</b></li>
+            <li><span>Замена топливного фильтра</span><b>от 1&nbsp;100&nbsp;₽</b></li>
+            <li><span>Замена щеток стеклоочистителя</span><b>от 280&nbsp;₽</b></li>
+          </ul>
+        </div>
+        <div class="price-group">
+          <h3>ГРМ и двигатель</h3>
+          <ul>
+            <li><span>Замена ремня ГРМ</span><b>от 4&nbsp;620&nbsp;₽</b></li>
+            <li><span>Замена цепи ГРМ</span><b>от 15&nbsp;120&nbsp;₽</b></li>
+            <li><span>Замена приводного ремня</span><b>от 900&nbsp;₽</b></li>
+            <li><span>Замена свечей зажигания</span><b>от 800&nbsp;₽</b></li>
+          </ul>
+        </div>
+        <div class="price-group">
+          <h3>Жидкости</h3>
+          <ul>
+            <li><span>Замена антифриза</span><b>от 2&nbsp;000&nbsp;₽</b></li>
+            <li><span>Замена тормозной жидкости</span><b>от 1&nbsp;600&nbsp;₽</b></li>
+          </ul>
+        </div>
+        <div class="price-group">
+          <h3>Электрика</h3>
+          <ul>
+            <li><span>Сброс сервисного интервала</span><b>от 500&nbsp;₽</b></li>
+            <li><span>Чтение и сброс ошибок</span><b>от 1&nbsp;000&nbsp;₽</b></li>
+          </ul>
+        </div>
+      </div>
+      <p class="prices__foot">Не нашли свою работу? Позвоните по номеру <a href="tel:+79123143994">+7 912 314-39-94</a> или напишите в <a href="https://wa.me/79123143994" rel="noopener" target="_blank">WhatsApp</a>, сориентируем по стоимости.</p>
+    </div>
+  </section>
+
+  <!-- 5. КАК РАБОТАЕМ -->
+  <section class="steps" id="steps" aria-labelledby="steps-title">
+    <div class="wrap">
+      <h2 class="sec-title" id="steps-title">Как мы работаем</h2>
+      <ol class="steps__list">
+        <li>
+          <span class="steps__num" aria-hidden="true">1</span>
+          <h3>Заявка</h3>
+          <p>Звоните или оставляйте заявку на сайте: договариваемся о времени визита.</p>
+        </li>
+        <li>
+          <span class="steps__num" aria-hidden="true">2</span>
+          <h3>Осмотр и диагностика</h3>
+          <p>Осматриваем автомобиль, проводим диагностику и называем точную стоимость работ.</p>
+        </li>
+        <li>
+          <span class="steps__num" aria-hidden="true">3</span>
+          <h3>Ремонт</h3>
+          <p>После вашего согласия приступаем к ремонту. По ходу — согласовываем каждое решение.</p>
+        </li>
+        <li>
+          <span class="steps__num" aria-hidden="true">4</span>
+          <h3>Проверка и выдача</h3>
+          <p>Проверяем результат, вы забираете автомобиль и оплачиваете только сделанное.</p>
+        </li>
+      </ol>
+      <div class="steps__cta">
+        <a class="btn btn--accent" href="#booking">Записаться на диагностику</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. ЦЕХ -->
+  <section class="shop" id="shop" aria-labelledby="shop-title">
+    <div class="wrap">
+      <h2 class="sec-title" id="shop-title">Цех</h2>
+      <p class="sec-note">Два поста, подъёмники, стенды и инструмент под любые задачи: от масла до капитального ремонта.</p>
+    </div>
+    <div class="shop__rail" tabindex="0" role="region" aria-label="Фотографии цеха, прокручивается по горизонтали">
+      <ul class="shop__track">
+        <li><figure><picture>
+          <source type="image/webp" srcset="img/p01-480.webp 480w, img/p01-900.webp 900w" sizes="(max-width: 768px) 78vw, 30vw">
+          <img src="img/p01-900.jpg" srcset="img/p01-480.jpg 480w, img/p01-900.jpg 900w" sizes="(max-width: 768px) 78vw, 30vw" alt="Фронтальная часть цеха с воротами" loading="lazy" decoding="async" width="900" height="675">
+        </picture><figcaption>Въезд в зону ремонта</figcaption></figure></li>
+        <li><figure><picture>
+          <source type="image/webp" srcset="img/p03-480.webp 480w, img/p03-900.webp 900w" sizes="(max-width: 768px) 78vw, 30vw">
+          <img src="img/p03-900.jpg" srcset="img/p03-480.jpg 480w, img/p03-900.jpg 900w" sizes="(max-width: 768px) 78vw, 30vw" alt="Автомобиль на двухстоечном подъёмнике" loading="lazy" decoding="async" width="900" height="675">
+        </picture><figcaption>Пост с подъёмником</figcaption></figure></li>
+        <li><figure><picture>
+          <source type="image/webp" srcset="img/p04-480.webp 480w, img/p04-900.webp 900w" sizes="(max-width: 768px) 78vw, 30vw">
+          <img src="img/p04-900.jpg" srcset="img/p04-480.jpg 480w, img/p04-900.jpg 900w" sizes="(max-width: 768px) 78vw, 30vw" alt="Рабочая зона автосервиса" loading="lazy" decoding="async" width="900" height="675">
+        </picture><figcaption>Рабочая зона</figcaption></figure></li>
+        <li><figure><picture>
+          <source type="image/webp" srcset="img/p07-480.webp 480w, img/p07-900.webp 900w" sizes="(max-width: 768px) 78vw, 30vw">
+          <img src="img/p07-900.jpg" srcset="img/p07-480.jpg 480w, img/p07-900.jpg 900w" sizes="(max-width: 768px) 78vw, 30vw" alt="Инструмент и оборудование в цеху" loading="lazy" decoding="async" width="900" height="675">
+        </picture><figcaption>Инструмент и оборудование</figcaption></figure></li>
+        <li><figure><picture>
+          <source type="image/webp" srcset="img/p09-480.webp 480w, img/p09-900.webp 900w" sizes="(max-width: 768px) 78vw, 30vw">
+          <img src="img/p09-900.jpg" srcset="img/p09-480.jpg 480w, img/p09-900.jpg 900w" sizes="(max-width: 768px) 78vw, 30vw" alt="Ремонт двигателя на столе" loading="lazy" decoding="async" width="900" height="675">
+        </picture><figcaption>Ремонт агрегатов</figcaption></figure></li>
+        <li><figure><picture>
+          <source type="image/webp" srcset="img/p14-480.webp 480w, img/p14-900.webp 900w" sizes="(max-width: 768px) 78vw, 30vw">
+          <img src="img/p14-900.jpg" srcset="img/p14-480.jpg 480w, img/p14-900.jpg 900w" sizes="(max-width: 768px) 78vw, 30vw" alt="Шиномонтажный пост" loading="lazy" decoding="async" width="900" height="675">
+        </picture><figcaption>Шиномонтаж</figcaption></figure></li>
+        <li><figure><picture>
+          <source type="image/webp" srcset="img/p15-480.webp 480w, img/p15-900.webp 900w" sizes="(max-width: 768px) 78vw, 30vw">
+          <img src="img/p15-900.jpg" srcset="img/p15-480.jpg 480w, img/p15-900.jpg 900w" sizes="(max-width: 768px) 78vw, 30vw" alt="Подъёмник с микроавтобусом" loading="lazy" decoding="async" width="900" height="675">
+        </picture><figcaption>Работаем и с микроавтобусами</figcaption></figure></li>
+        <li><figure><picture>
+          <source type="image/webp" srcset="img/p18-480.webp 480w, img/p18-900.webp 900w" sizes="(max-width: 768px) 78vw, 30vw">
+          <img src="img/p18-900.jpg" srcset="img/p18-480.jpg 480w, img/p18-900.jpg 900w" sizes="(max-width: 768px) 78vw, 30vw" alt="Зона ожидания и бытовая часть сервиса" loading="lazy" decoding="async" width="900" height="675">
+        </picture><figcaption>Бытовая зона</figcaption></figure></li>
+        <li><figure><picture>
+          <source type="image/webp" srcset="img/p22-480.webp 480w, img/p22-900.webp 900w" sizes="(max-width: 768px) 78vw, 30vw">
+          <img src="img/p22-900.jpg" srcset="img/p22-480.jpg 480w, img/p22-900.jpg 900w" sizes="(max-width: 768px) 78vw, 30vw" alt="Автомобиль на диагностике" loading="lazy" decoding="async" width="900" height="675">
+        </picture><figcaption>Диагностика</figcaption></figure></li>
+        <li><figure><picture>
+          <source type="image/webp" srcset="img/p24-480.webp 480w, img/p24-900.webp 900w" sizes="(max-width: 768px) 78vw, 30vw">
+          <img src="img/p24-900.jpg" srcset="img/p24-480.jpg 480w, img/p24-900.jpg 900w" sizes="(max-width: 768px) 78vw, 30vw" alt="Запасные части и материалы на складе" loading="lazy" decoding="async" width="900" height="675">
+        </picture><figcaption>Материалы и запчасти</figcaption></figure></li>
+        <li><figure><picture>
+          <source type="image/webp" srcset="img/p25-480.webp 480w, img/p25-900.webp 900w" sizes="(max-width: 768px) 78vw, 30vw">
+          <img src="img/p25-900.jpg" srcset="img/p25-480.jpg 480w, img/p25-900.jpg 900w" sizes="(max-width: 768px) 78vw, 30vw" alt="Территория и парковка у сервиса" loading="lazy" decoding="async" width="900" height="675">
+        </picture><figcaption>Парковка у сервиса</figcaption></figure></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 7. ЦИФРЫ И УСЛОВИЯ -->
+  <section class="proof" id="proof" aria-labelledby="proof-title">
+    <div class="wrap">
+      <h2 class="sr-only" id="proof-title">Цифры и условия</h2>
+      <div class="proof__stats">
+        <div class="stat"><strong>4,4</strong><span>рейтинг на Яндекс&nbsp;Картах</span></div>
+        <div class="stat"><strong>74</strong><span>оценки клиентов</span></div>
+        <div class="stat"><strong>32</strong><span>отзыва на картах</span></div>
+        <div class="stat"><strong>9–21</strong><span>работаем без выходных</span></div>
+      </div>
+      <ul class="proof__conds">
+        <li>Записываем заранее, по телефону или в мессенджерах</li>
+        <li>Оплата наличными и банковской картой</li>
+        <li>Удобный заезд с основной дороги, есть парковка</li>
+        <li>Wi-Fi для клиентов на время ожидания</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ОТЗЫВЫ -->
+  <section class="rev" id="reviews" aria-labelledby="reviews-title">
+    <div class="wrap">
+      <header class="sec-head">
+        <h2 class="sec-title" id="reviews-title">Что говорят клиенты</h2>
+        <p class="sec-lead">Средняя оценка <strong>4,4</strong> из&nbsp;5: 74&nbsp;оценки и&nbsp;32&nbsp;отзыва на&nbsp;Яндекс Картах. Ниже собраны реальные отзывы покупателей.</p>
+      </header>
+
+      <div class="carousel" id="carousel">
+        <div class="carousel__viewport">
+          <div class="carousel__track" id="carousel-track">
+            <figure class="rev-slide is-active" role="group" aria-roledescription="слайд" aria-label="Отзыв 1 из 7">
+              <blockquote class="rev-slide__text">«Приехал по совету товарища, ни разу не пожалел. Сделали быстро, по всем нюансам звонили, недостающие запчасти заказали, лишних работ не навязывали».</blockquote>
+              <figcaption class="rev-slide__who">
+                <span class="rev-slide__name">Александр Потапенко</span>
+                <span class="rev-slide__date">2 ноября 2023 · Яндекс Карты</span>
+              </figcaption>
+            </figure>
+            <figure class="rev-slide" role="group" aria-roledescription="слайд" aria-label="Отзыв 2 из 7" aria-hidden="true">
+              <blockquote class="rev-slide__text">«Хороший сервис! Обращался к ребятам и остался приятно удивлен качеством и скоростью работы».</blockquote>
+              <figcaption class="rev-slide__who">
+                <span class="rev-slide__name">Сергей Екимов</span>
+                <span class="rev-slide__date">17 июня · Яндекс Карты</span>
+              </figcaption>
+            </figure>
+            <figure class="rev-slide" role="group" aria-roledescription="слайд" aria-label="Отзыв 3 из 7" aria-hidden="true">
+              <blockquote class="rev-slide__text">«Нормальный сервис, Евгений хороший специалист, помогли даже при полной занятости, без лишних навязываний».</blockquote>
+              <figcaption class="rev-slide__who">
+                <span class="rev-slide__name">Андрей Потапов</span>
+                <span class="rev-slide__date">16 июня · Яндекс Карты</span>
+              </figcaption>
+            </figure>
+            <figure class="rev-slide" role="group" aria-roledescription="слайд" aria-label="Отзыв 4 из 7" aria-hidden="true">
+              <blockquote class="rev-slide__text">«Быстро, качественно! Отзывчивые профессионалы! Поставили коробку передач, которая не подходила под год выпуска, но ребята справились».</blockquote>
+              <figcaption class="rev-slide__who">
+                <span class="rev-slide__name">Кристина Сафуанова</span>
+                <span class="rev-slide__date">23 апреля 2024 · Яндекс Карты</span>
+              </figcaption>
+            </figure>
+            <figure class="rev-slide" role="group" aria-roledescription="слайд" aria-label="Отзыв 5 из 7" aria-hidden="true">
+              <blockquote class="rev-slide__text">«Сделали диагностику подвески, всё за три часа, запчасти сами заказали, ещё и масло поменяли».</blockquote>
+              <figcaption class="rev-slide__who">
+                <span class="rev-slide__name">Антон Воробьев</span>
+                <span class="rev-slide__date">28 января 2022 · Яндекс Карты</span>
+              </figcaption>
+            </figure>
+            <figure class="rev-slide" role="group" aria-roledescription="слайд" aria-label="Отзыв 6 из 7" aria-hidden="true">
+              <blockquote class="rev-slide__text">«Удобный подъезд, оснащение мастерской соответствует требованиям и содержится в надлежащем виде».</blockquote>
+              <figcaption class="rev-slide__who">
+                <span class="rev-slide__name">Андрей Овчинников</span>
+                <span class="rev-slide__date">19 августа 2021 · Яндекс Карты</span>
+              </figcaption>
+            </figure>
+            <figure class="rev-slide" role="group" aria-roledescription="слайд" aria-label="Отзыв 7 из 7" aria-hidden="true">
+              <blockquote class="rev-slide__text">«Быстрое обслуживание. Отличный персонал. Хорошие цены. Только места для ожидания нет».</blockquote>
+              <figcaption class="rev-slide__who">
+                <span class="rev-slide__name">Гульнара Авхатова</span>
+                <span class="rev-slide__date">25 апреля 2025 · Яндекс Карты</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="carousel__bar">
+          <div class="carousel__dots" id="carousel-dots">
+            <button class="dot is-active" type="button" aria-label="Отзыв 1" aria-current="true"></button>
+            <button class="dot" type="button" aria-label="Отзыв 2"></button>
+            <button class="dot" type="button" aria-label="Отзыв 3"></button>
+            <button class="dot" type="button" aria-label="Отзыв 4"></button>
+            <button class="dot" type="button" aria-label="Отзыв 5"></button>
+            <button class="dot" type="button" aria-label="Отзыв 6"></button>
+            <button class="dot" type="button" aria-label="Отзыв 7"></button>
+          </div>
+          <p class="carousel__count" aria-hidden="true"><span id="carousel-now">1</span>&nbsp;/&nbsp;7</p>
+          <div class="carousel__nav">
+            <button class="carousel__btn" type="button" id="carousel-prev" aria-label="Предыдущий отзыв">
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path d="M15 4 7 12l8 8" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+            </button>
+            <button class="carousel__btn" type="button" id="carousel-next" aria-label="Следующий отзыв">
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path d="M9 4l8 8-8 8" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+            </button>
+            <button class="carousel__btn carousel__btn--pause" type="button" id="carousel-pause" aria-pressed="false" aria-label="Остановить автопрокрутку отзывов">
+              <svg class="ico-pause" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path d="M9 4v16M15 4v16" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+              <svg class="ico-play" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path d="M8 4l12 8-12 8z" fill="currentColor"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <p class="carousel__more">
+          <a href="https://yandex.ru/maps/org/respekt_avto/126332259769/reviews/" rel="noopener" target="_blank">Все 32 отзыва на Яндекс Картах&nbsp;→</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ЗАПИСЬ -->
+  <section class="booking" id="booking" aria-labelledby="booking-title">
+    <div class="wrap">
+      <div class="booking__grid">
+        <div class="booking__intro">
+          <h2 class="sec-title" id="booking-title">Запишитесь на&nbsp;ремонт за&nbsp;минуту</h2>
+          <p class="sec-lead">Заполните форму: сообщение с вашими данными подставится в&nbsp;WhatsApp, останется только нажать «Отправить». Или просто позвоните, ответим с&nbsp;9:00 до&nbsp;21:00.</p>
+          <ul class="booking__points">
+            <li>Подтвердим запись и сориентируем по цене в тот же день</li>
+            <li>Если не дозвонитесь, напишите в <a href="https://wa.me/79123143994" rel="noopener" target="_blank">WhatsApp</a> или <a href="https://t.me/ctorespekt1108" rel="noopener" target="_blank">Telegram</a></li>
+          </ul>
+        </div>
+
+        <form class="form" id="booking-form" action="https://wa.me/79123143994" method="get" novalidate>
+          <div class="form__row">
+            <label class="form__field">
+              <span class="form__label">Ваше имя <span class="form__req" aria-hidden="true">*</span></span>
+              <input class="form__input" type="text" name="name" id="f-name" autocomplete="name" placeholder="Например, Алексей" required />
+            </label>
+            <label class="form__field">
+              <span class="form__label">Телефон <span class="form__req" aria-hidden="true">*</span></span>
+              <input class="form__input" type="tel" name="phone" id="f-phone" autocomplete="tel" inputmode="tel" placeholder="+7 (___) ___-__-__" required />
+            </label>
+          </div>
+          <div class="form__row">
+            <label class="form__field">
+              <span class="form__label">Марка и модель авто</span>
+              <input class="form__input" type="text" name="car" id="f-car" placeholder="Например, Skoda Octavia A7" />
+            </label>
+            <label class="form__field">
+              <span class="form__label">Желаемая дата</span>
+              <input class="form__input" type="date" name="date" id="f-date" />
+            </label>
+          </div>
+          <label class="form__field">
+            <span class="form__label">Что беспокоит?</span>
+            <textarea class="form__input form__input--area" name="note" id="f-note" rows="4" placeholder="Например: стук в подвеске, нужно ТО и замена масла"></textarea>
+          </label>
+          <button class="btn btn--primary btn--lg form__submit" type="submit">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.2 1.2-1.7 1.2-.4.1-1 .1-1.6-.1a12 12 0 0 1-5.5-4.8c-.6-1-.9-2-.7-2.9.1-.4.5-1.2 1-1.4.3-.1.7-.1.9.1l1 1.3c.1.2.1.4 0 .6l-.4.5c-.1.2-.2.3 0 .6.6 1 1.9 2.4 3.1 2.9.3.1.4.1.6-.1l.6-.7c.2-.2.3-.2.6-.1l1.7.8c.3.1.4.3.4.5 0 .2 0 .4-.1.6Z" fill="currentColor"/></svg>
+            Отправить в WhatsApp
+          </button>
+          <p class="form__hint" id="form-hint" role="status">Заполните имя и телефон: откроется WhatsApp с готовым сообщением.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- КОНТАКТЫ -->
+  <section class="contacts" id="contacts" aria-labelledby="contacts-title">
+    <div class="wrap">
+      <header class="sec-head">
+        <h2 class="sec-title" id="contacts-title">Как нас найти</h2>
+      </header>
+      <div class="contacts__grid">
+        <div class="contacts__info">
+          <dl class="contacts__list">
+            <div class="contacts__item">
+              <dt>Адрес</dt>
+              <dd>Челябинск, СНТ Колющенец, 6-я улица, 274<br><span class="muted">заезд с автодороги, есть парковка</span></dd>
+            </div>
+            <div class="contacts__item">
+              <dt>Телефон</dt>
+              <dd><a href="tel:+79123143994">+7 (912) 314-39-94</a></dd>
+            </div>
+            <div class="contacts__item">
+              <dt>Режим работы</dt>
+              <dd>Ежедневно с 9:00 до 21:00<br><span id="status-2" class="status"><span class="status__dot" aria-hidden="true"></span><span class="status__text">Уточняем расписание…</span></span></dd>
+            </div>
+            <div class="contacts__item">
+              <dt>Мессенджеры</dt>
+              <dd class="contacts__mess">
+                <a class="chip" href="https://wa.me/79123143994" rel="noopener" target="_blank">WhatsApp</a>
+                <a class="chip" href="https://t.me/ctorespekt1108" rel="noopener" target="_blank">Telegram</a>
+                <a class="chip" href="mailto:info@respekt-avto74.ru">Написать на почту</a>
+              </dd>
+            </div>
+          </dl>
+          <p class="contacts__cta">
+            <a class="btn btn--ghost" href="https://yandex.ru/maps/org/respekt_avto/126332259769/" rel="noopener" target="_blank">Карточка на Яндекс Картах</a>
+            <a class="btn btn--ghost" href="https://yandex.ru/maps/?rtext=~55.093721%2C61.400905&amp;rtt=auto" rel="noopener" target="_blank">Построить маршрут</a>
+          </p>
+        </div>
+        <div class="contacts__map">
+          <iframe
+            title="Автосервис «Респект Авто» на Яндекс Картах — Челябинск, СНТ Колющенец, 6-я улица, 274"
+            src="https://yandex.ru/map-widget/v1/?ll=61.400905%2C55.093721&amp;z=17&amp;pt=61.400905%2C55.093721%2Cpm2rdm"
+            width="640" height="480" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allow="fullscreen"></iframe>
+          <noscript>
+            <p>Карта не загрузилась? <a href="https://yandex.ru/maps/org/respekt_avto/126332259769/" rel="noopener" target="_blank">Открыть адрес на Яндекс Картах</a>.</p>
+          </noscript>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__grid">
+    <div class="foot__brand">
+      <a class="logo" href="#top" aria-label="Респект Авто, на главную">
+        <span class="logo__mark" aria-hidden="true">Р</span>
+        <span class="logo__text">Респект&nbsp;<i>Авто</i></span>
+      </a>
+      <p>Автосервис, автотехцентр. Челябинск, СНТ Колющенец, 6-я улица, 274. Ежедневно 9:00–21:00.</p>
+    </div>
+    <nav class="foot__nav" aria-label="Разделы сайта">
+      <a href="#services">Услуги</a>
+      <a href="#prices">Цены</a>
+      <a href="#steps">Как работаем</a>
+      <a href="#shop">Цех</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#booking">Запись</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="foot__links">
+      <a href="tel:+79123143994">+7 912 314-39-94</a>
+      <a href="https://wa.me/79123143994" rel="noopener" target="_blank">WhatsApp</a>
+      <a href="https://t.me/ctorespekt1108" rel="noopener" target="_blank">Telegram</a>
+      <a href="https://yandex.ru/maps/org/respekt_avto/126332259769/" rel="noopener" target="_blank">Мы на Яндекс Картах</a>
+    </div>
+  </div>
+  <div class="wrap foot__bottom">
+    <p>© <span id="year">2026</span> «Респект Авто». Цены на сайте справочные и не являются публичной офертой.</p>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
