@@ -866,9 +866,6 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 16px); }
   color: var(--fg);
 }
 
-.rev-slide__text::before { content: "\201C"; }
-.rev-slide__text::after { content: "\201D"; }
-
 .rev-slide__who {
   display: flex;
   flex-wrap: wrap;
