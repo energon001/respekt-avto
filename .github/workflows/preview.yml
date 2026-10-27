@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths-ignore:
       - 'docs/preview.jpg'
+      - 'docs/social-preview.jpg'
   workflow_dispatch:
 
 permissions:
