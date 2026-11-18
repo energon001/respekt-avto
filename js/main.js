@@ -3,6 +3,28 @@
   'use strict';
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
 
+  /* 0. Переключатель темы. Выбор темы применяет скрипт в <head>,
+     здесь только кнопка и запоминание. */
+  var themeBtn = document.getElementById('theme-btn');
+  function applyTheme(t) {
+    document.documentElement.setAttribute('data-theme', t);
+    if (themeBtn) {
+      var light = t === 'light';
+      themeBtn.setAttribute('aria-label', light ? 'Включить тёмную тему' : 'Включить светлую тему');
+      themeBtn.setAttribute('title', light ? 'Тёмная тема' : 'Светлая тема');
+    }
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content', t === 'light' ? '#fbfaf7' : '#0d0c0a');
+  }
+  applyTheme(document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark');
+  if (themeBtn) {
+    themeBtn.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      applyTheme(next);
+      try { localStorage.setItem('ra-theme', next); } catch (e) {}
+    });
+  }
+
   /* 1. Open/closed ticker (Chelyabinsk time, UTC+5) */
   var OPEN_M = 540, CLOSE_M = 1260;
   function statusNow() {

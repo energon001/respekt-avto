@@ -4,6 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script>document.documentElement.classList.add('js');</script>
+<script>
+  /* Тема выставляется до первой отрисовки: иначе при светлом выборе
+     страница успевает мигнуть тёмным. */
+  (function () {
+    var t = null;
+    try { t = localStorage.getItem('ra-theme'); } catch (e) {}
+    document.documentElement.setAttribute('data-theme', t === 'light' ? 'light' : 'dark');
+  })();
+</script>
 <title>Респект Авто: автосервис в Челябинске — ремонт двигателей, АКПП, электрики</title>
 <meta name="description" content="Автосервис «Респект Авто» в Челябинске: ТО, ремонт двигателей и ГБЦ, АКПП, ходовой, тормозов, автоэлектрика, диагностика, шиномонтаж. Цены от 200 ₽. Ежедневно 9:00–21:00. СНТ Колющенец, 6-я улица, 274.">
 <meta property="og:type" content="website">
@@ -53,6 +62,10 @@
     </nav>
     <a class="btn btn--accent top__cta" href="#booking">Записаться</a>
     <a class="top__phone" href="tel:+79123143994">+7 912 314-39-94</a>
+    <button class="theme-btn" type="button" id="theme-btn" aria-label="Включить светлую тему" title="Светлая тема">
+      <svg class="ico-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <svg class="ico-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.5v2.2M12 19.3v2.2M4.2 4.2l1.6 1.6M18.2 18.2l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.2 19.8l1.6-1.6M18.2 5.8l1.6-1.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
     <button class="burger" type="button" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Меню">
       <span></span><span></span><span></span>
     </button>
